@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Release"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="FontMaker.dpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="18"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="U_DoFont.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormFont"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="786"/>
+        <CursorPos X="65" Y="811"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="U_DoSize.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormSize"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="47"/>
+        <CursorPos X="49" Y="15"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="U_DoAbout.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AboutBox"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="37" Y="17"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit3>
+    </Units>
+    <JumpHistory Count="9" HistoryIndex="8">
+      <Position1>
+        <Filename Value="U_DoFont.pas"/>
+        <Caret Line="569" Column="39" TopLine="553"/>
+      </Position1>
+      <Position2>
+        <Filename Value="U_DoFont.pas"/>
+        <Caret Line="11" Column="32"/>
+      </Position2>
+      <Position3>
+        <Filename Value="U_DoFont.pas"/>
+        <Caret Line="30" Column="19" TopLine="17"/>
+      </Position3>
+      <Position4>
+        <Filename Value="U_DoAbout.pas"/>
+        <Caret TopLine="7"/>
+      </Position4>
+      <Position5>
+        <Filename Value="U_DoFont.pas"/>
+        <Caret Line="382" Column="66" TopLine="370"/>
+      </Position5>
+      <Position6>
+        <Filename Value="U_DoFont.pas"/>
+        <Caret Line="584" Column="51" TopLine="560"/>
+      </Position6>
+      <Position7>
+        <Filename Value="U_DoFont.pas"/>
+        <Caret Line="810" Column="58" TopLine="786"/>
+      </Position7>
+      <Position8>
+        <Filename Value="U_DoFont.pas"/>
+        <Caret Line="306" Column="64" TopLine="293"/>
+      </Position8>
+      <Position9>
+        <Filename Value="U_DoFont.pas"/>
+        <Caret Line="584" Column="51" TopLine="560"/>
+      </Position9>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,55 @@
+object AboutBox: TAboutBox
+  Left = 843
+  Height = 97
+  Top = 205
+  Width = 298
+  BorderStyle = bsDialog
+  Caption = 'A propos'
+  ClientHeight = 97
+  ClientWidth = 298
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Position = poScreenCenter
+  LCLVersion = '1.6.4.0'
+  object OKButton: TButton
+    Left = 111
+    Height = 25
+    Top = 68
+    Width = 75
+    Caption = 'OK'
+    Default = True
+    ModalResult = 1
+    TabOrder = 0
+  end
+  object StaticText1: TStaticText
+    Left = 8
+    Height = 25
+    Top = 8
+    Width = 281
+    Alignment = taCenter
+    Caption = 'FontMaker ][ '
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Courier'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object StaticText3: TStaticText
+    Left = 8
+    Height = 17
+    Top = 40
+    Width = 281
+    Alignment = taCenter
+    Caption = '©flaith-nycd 2004-2017'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Courier'
+    ParentFont = False
+    TabOrder = 2
+  end
+end
