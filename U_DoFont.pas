@@ -333,10 +333,15 @@ begin                                               // affichage de la grille
   largeur := FNTLargeur;
   nbcol := FNTNBColonne;
   nblig := FNTNBLigne;
+  
+  ImgBox.Width:=largeur*nbcol+1;
+  ImgBox.Height:=largeur*nblig+1; 
   ImgBox.Picture.Graphic.Width := largeur*nbcol+1;  // Définition de la taille
   ImgBox.Picture.Graphic.Height := largeur*nblig+1; // de la grille de saisie
+  
   BevelImgBox.Width := largeur*nbcol+5;             // on ajuste le bevel autour
   BevelImgBox.Height := ImgBox.Picture.Graphic.Height+4;
+  
   TheRect := Rect(0,0,largeur*nbcol+1,largeur*nblig+1); // création du rectangle
   ImgBox.Canvas.Brush.Color := clWhite;
   ImgBox.Canvas.FillRect(TheRect);                  // et on efface en blanc
